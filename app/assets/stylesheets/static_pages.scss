@@ -9,6 +9,8 @@ $login-btn-color: #a0c6f7;
 $signup-btn-color: #2c9c20;
 $light-text-color: #a6afb5;
 
+@import 'about';
+
 body {
   font-family: sans-serif;
 }
@@ -105,22 +107,9 @@ nav {
   background-image: url("http://placekitten.com/500/300");
 }
 
-#image-profile {
-  position: absolute;
-  left: 30px;
-  bottom: -25px;
-
-  background: url("http://placekitten.com/150/150") no-repeat;
-  width: 150px;
-  height: 150px;
-}
 
 #login-button {
   padding: 3px 10px;
-}
-
-.profile-info {
-  padding-top: 1.5em;
 }
 
 #signup-button {
