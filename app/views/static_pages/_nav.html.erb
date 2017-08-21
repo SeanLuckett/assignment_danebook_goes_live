@@ -1,6 +1,7 @@
 <nav class="row text-center">
-  <div class="col-sm-8">
-    <ul>
+  <div class="col-sm-12">
+    <a href="#" class="pull-right"><%= link_to 'Home', root_path %></a>
+    <ul class="pull-left">
       <li class="border-black-2px"><%= link_to 'Timeline', timeline_path %></li>
       <li class="border-black-2px"><%= link_to 'About', about_path %></li>
       <li class="border-black-2px"><%= link_to 'Photos', photos_path %> <span class="text-gray-light">(123)</span></li>
@@ -8,7 +9,6 @@
     </ul>
   </div>
 
-  <div class="col-sm-4">
-    <a href="#" class="right"><%= link_to 'Home', root_path %></a>
-  </div>
+  <!--<div class="col-sm-4">-->
+  <!--</div>-->
 </nav>
