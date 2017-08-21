@@ -8,10 +8,12 @@ $facebook-blue: #317be1;
 $login-btn-color: #a0c6f7;
 $signup-btn-color: #2c9c20;
 $light-text-color: #a6afb5;
+$light-gray-text-color: #d3d3d3;
 
 @import 'about';
 @import 'home';
 @import 'timeline';
+@import 'friends';
 
 body {
   font-family: sans-serif;
